@@ -1,5 +1,13 @@
 {
-    "platform": {
-        "apiRuntime": "node:18"
+  "platform": {
+    "apiRuntime": "node:18"
+  },
+  "routes": [
+    {
+      "route": "/media",
+      "methods": [
+        "get"
+      ]
     }
+  ]
 }
