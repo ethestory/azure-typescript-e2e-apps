@@ -8,6 +8,14 @@
       "methods": [
         "get"
       ]
+    },
+    {
+      "route": "/media",
+      "methods": [
+        "get"
+      ],
+      "rewrite": "/media",
+      "redirect": "https://accstorage123456.blob.core.windows.net/upload"
     }
   ]
 }
