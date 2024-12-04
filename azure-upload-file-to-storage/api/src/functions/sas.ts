@@ -55,7 +55,7 @@ export async function getGenerateSasToken(
 }
 
 app.http('sas', {
-  methods: ['POST', 'GET'],
+  methods: ['POST', 'GET', 'OPTIONS'],
   authLevel: 'anonymous',
   handler: getGenerateSasToken
 });
