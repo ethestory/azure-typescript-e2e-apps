@@ -59,7 +59,7 @@ export async function getFilesInContainer(
 }
 
 app.http('list', {
-  methods: ['POST', 'GET', 'POST'],
+  methods: ['POST', 'GET', 'OPTIONS'],
   authLevel: 'anonymous',
   handler: getFilesInContainer
 });
